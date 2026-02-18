@@ -25,11 +25,12 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "SPBSB — School of Planning and Business Studies in Business",
+  title: "SPBSB — SP Bansal School of Business",
   description:
-    "SPBSB is a premier business school with 70+ years of legacy, ranked #2 by IIRF. Offering MBA Full-Time, Executive MBA, and doctoral programmes with world-class faculty.",
+    "SPBSB is a premier business school with years of legacy, ranked #2 by IIRF. Offering MBA Full-Time, Executive MBA, and doctoral programmes with world-class faculty.",
   keywords: [
     "SPBSB",
+    "SP Bansal School of Business",
     "business school",
     "MBA",
     "Executive MBA",
@@ -37,9 +38,9 @@ export const metadata: Metadata = {
     "top business school India",
   ],
   openGraph: {
-    title: "SPBSB — Premier Business School",
+    title: "SPBSB — SP Bansal School of Business",
     description:
-      "70+ years of legacy in management education. Ranked #2 by IIRF with 12,000+ alumni worldwide.",
+      "SPBSB is a premier business school with years of legacy, ranked #2 by IIRF. Offering MBA Full-Time, Executive MBA, and doctoral programmes with world-class faculty.",
     type: "website",
     locale: "en_IN",
     siteName: "SPBSB",

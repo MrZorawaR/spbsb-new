@@ -24,7 +24,7 @@ export default function Hero() {
     >
       {/* Layer 1: Static hero image — LCP element */}
       <Image
-        src="/images/hero-campus.svg"
+        src="/images/herooo.png"
         alt="SPBSB campus — students engaged in collaborative learning"
         fill
         priority

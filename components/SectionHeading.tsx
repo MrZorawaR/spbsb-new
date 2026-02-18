@@ -6,7 +6,7 @@ export default function SectionHeading({ title, subTitle }: { title: string, sub
             </h2>
             <div className="h-1 w-20 bg-accent mx-auto rounded-full" />
             {subTitle && (
-                <p className="mt-6 max-w-2xl mx-auto text-gray-600 text-lg font-source leading-relaxed">{subTitle}</p>
+                <p className="mt-6 max-w-4xl mx-auto text-gray-600 text-lg font-source leading-relaxed">{subTitle}</p>
             )}
         </div>
     )

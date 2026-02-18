@@ -24,7 +24,7 @@ export default function LifeSection() {
             aria-labelledby="life-heading"
             className="bg-white"
         >
-            <div className="px-4 md:px-0">
+            <div>
                 <div className="grid grid-cols-1 md:grid-cols-3 md:auto-rows-[300px] gap-0">
 
                     <div className="relative md:row-span-1 aspect-[4/3] md:aspect-auto md:h-full overflow-hidden">
@@ -38,7 +38,7 @@ export default function LifeSection() {
                         />
                     </div>
 
-                    <article className="bg-teal-800 flex flex-col justify-end p-8 md:row-span-1">
+                    <article className="bg-heading flex flex-col justify-end p-8 md:row-span-1">
                         <h3 className="font-zilla text-2xl font-bold text-white mb-2">
                             Recruiters @ SPBSB
                         </h3>
