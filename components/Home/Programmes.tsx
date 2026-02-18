@@ -65,24 +65,6 @@ export default function Programmes() {
           ))}
         </div>
 
-        <div className="mt-8 text-center sm:hidden">
-          <Link
-            href="/programmes"
-            className="inline-flex items-center gap-2 text-accent font-semibold text-sm"
-          >
-            View All Programmes
-            <svg
-              className="h-4 w-4"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth={2.5}
-              aria-hidden="true"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </Link>
-        </div>
       </div>
     </section>
   );

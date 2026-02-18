@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useCallback } from "react";
+import { createPortal } from "react-dom";
 
 interface VirtualTourModalProps {
     isOpen: boolean;
@@ -56,9 +57,9 @@ export default function VirtualTourModal({ isOpen, onClose }: VirtualTourModalPr
         };
     }, [isOpen, handleKeyDown]);
 
-    return (
+    return createPortal(
         <div
-            className={`fixed inset-0 z-[60] flex items-center justify-center p-4
+            className={`fixed inset-0 z-[9999] flex items-center justify-center p-4
                         transition-all duration-300 ease-[cubic-bezier(.4,0,.2,1)]
                         ${isOpen
                     ? "opacity-100 visible"
@@ -74,7 +75,7 @@ export default function VirtualTourModal({ isOpen, onClose }: VirtualTourModalPr
         >
             {/* Backdrop */}
             <div
-                className={`absolute inset-0 bg-heading/70 backdrop-blur-sm
+                className={`absolute inset-0 bg-black/70 backdrop-blur-sm
                             transition-opacity duration-300
                             ${isOpen ? "opacity-100" : "opacity-0"}`}
                 aria-hidden="true"
@@ -88,9 +89,9 @@ export default function VirtualTourModal({ isOpen, onClose }: VirtualTourModalPr
             >
                 {/* Header bar */}
                 <div className="flex items-center justify-between px-6 py-4 border-b border-gray-100">
-                    <h3 className="text-lg font-bold font-zilla text-heading">
+                    <p className="text-lg font-bold font-zilla text-heading">
                         Virtual Campus Tour
-                    </h3>
+                    </p>
                     <button
                         ref={closeButtonRef}
                         onClick={onClose}
@@ -127,6 +128,7 @@ export default function VirtualTourModal({ isOpen, onClose }: VirtualTourModalPr
                     )}
                 </div>
             </div>
-        </div>
+        </div>,
+        document.body
     );
 }
