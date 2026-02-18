@@ -82,7 +82,7 @@ export default function LegacyEcosystem() {
                     <div className="md:col-span-5">
                         <div className="relative aspect-square rounded-2xl overflow-hidden shadow-lg border border-gray-100">
                             <Image
-                                src="https://geetauniversity.edu.in/uploads/all/253/f-block-(1).webp"
+                                src="/images/f-block.webp"
                                 alt="Aerial view of the Geeta Group campus buildings and facilities"
                                 fill
                                 loading="lazy"

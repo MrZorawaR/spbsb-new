@@ -29,7 +29,7 @@ export default function LifeSection() {
 
                     <div className="relative md:row-span-1 aspect-[4/3] md:aspect-auto md:h-full overflow-hidden">
                         <Image
-                            src="https://fms-new.b-cdn.net/gridImages/research.png"
+                            src="/images/student.webp"
                             alt="Faculty-led classroom session at SPBSB with industry professionals"
                             fill
                             loading="lazy"
@@ -57,7 +57,7 @@ export default function LifeSection() {
 
                     <article className="relative md:row-span-2 aspect-[4/5] md:aspect-auto md:h-full overflow-hidden group">
                         <Image
-                            src="https://fms-new.b-cdn.net/gridImages/alumni.png"
+                            src="/images/alumni.webp"
                             alt="SPBSB alumni networking at a professional event"
                             fill
                             loading="lazy"
@@ -105,7 +105,7 @@ export default function LifeSection() {
 
                     <article className="relative md:row-span-2 aspect-[4/5] md:aspect-auto md:h-full overflow-hidden group">
                         <Image
-                            src="https://fms-new.b-cdn.net/gridImages/recruiters.jpeg"
+                            src="/images/corporate.webp"
                             alt="Students participating in corporate competitions at SPBSB"
                             fill
                             loading="lazy"
@@ -132,7 +132,7 @@ export default function LifeSection() {
 
                     <article className="relative md:row-span-1 aspect-[4/3] md:aspect-auto md:h-full overflow-hidden group">
                         <Image
-                            src="https://fms-new.b-cdn.net/gridImages/corporate.jpg"
+                            src="/images/research.webp"
                             alt="SPBSB faculty and scholars engaged in academic research"
                             fill
                             loading="lazy"
@@ -166,7 +166,7 @@ export default function LifeSection() {
 
                             {/* Background Image */}
                             <Image
-                                src="https://fms-new.b-cdn.net/gridImages/lifeAtFms.JPG"
+                                src="/images/campusLife.webp"
                                 alt="Students attending an interactive lecture session at SPBSB"
                                 fill
                                 loading="lazy"
