@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import HeroVideo from "@/components/HeroVideo";
+import HeroVideo from "@/components/Home/HeroVideo";
 
 /**
  * Hero Section — Server Component

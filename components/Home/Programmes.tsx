@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import SectionHeading from "../SectionHeading";
 
 const programmes = [
   {
@@ -30,37 +31,10 @@ const programmes = [
 
 export default function Programmes() {
   return (
-    <section className="py-20 md:py-28 bg-white" aria-labelledby="programmes-heading">
+    <section className="pt-10 pb-30 bg-warm" aria-labelledby="programmes-heading">
       <div className="max-w-7xl mx-auto px-4">
-        {/* Section heading with View All link */}
-        <div className="flex items-start justify-between mb-14">
-          <h2
-            id="programmes-heading"
-            className="font-zilla text-3xl md:text-4xl lg:text-[2.75rem] font-bold text-heading accent-line leading-tight"
-          >
-            Academic Programmes
-          </h2>
-          <Link
-            href="/programmes"
-            className="hidden sm:inline-flex items-center gap-2 text-accent font-semibold text-sm shrink-0 mt-2 hover:underline group"
-          >
-            <span className="flex items-center justify-center h-8 w-8 rounded-full border-2 border-accent group-hover:bg-accent group-hover:text-white transition-colors">
-              <svg
-                className="h-4 w-4"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={2.5}
-                aria-hidden="true"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </span>
-            View All
-          </Link>
-        </div>
+        <SectionHeading title="Academic Programmes" subTitle="Explore our comprehensive range of academic programmes designed to equip you with the knowledge, skills, and experience needed to excel in the dynamic world of business." />
 
-        {/* Programme Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
           {programmes.map((prog) => (
             <Link
@@ -76,10 +50,8 @@ export default function Programmes() {
                   className="object-cover"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
-                {/* Gradient overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" aria-hidden="true" />
 
-                {/* Title block at bottom */}
                 <div className="absolute bottom-0 left-0 right-0 p-5">
                   <div className="bg-white/95 backdrop-blur-sm rounded-lg px-5 py-4 shadow-sm">
                     <div className="w-10 h-0.5 bg-accent mb-3" aria-hidden="true" />
@@ -93,7 +65,6 @@ export default function Programmes() {
           ))}
         </div>
 
-        {/* Mobile "View All" link */}
         <div className="mt-8 text-center sm:hidden">
           <Link
             href="/programmes"

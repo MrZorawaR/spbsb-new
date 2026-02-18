@@ -1,3 +1,5 @@
+import SectionHeading from "../SectionHeading";
+
 const stats = [
   { number: "2", label: "IIRF Rankings" },
   { number: "70+", label: "Years of Legacy" },
@@ -7,18 +9,10 @@ const stats = [
 
 export default function Stats() {
   return (
-    <section className="py-20 md:py-28 bg-white" aria-labelledby="stats-heading">
+    <section className="py-10 bg-white" aria-labelledby="stats-heading">
       <div className="max-w-7xl mx-auto px-4">
         {/* Section heading with accent underline */}
-        <div className="mb-16 text-center">
-          <h2
-            id="stats-heading"
-            className="text-3xl lg:text-4xl font-bold font-zilla text-heading mt-3 mb-4"
-          >
-            SPBSB at a Glance
-          </h2>
-          <div className="h-1 w-20 bg-accent mx-auto rounded-full" />
-        </div>
+        <SectionHeading title="SPBSB at a Glance" />
 
         {/* Stats Grid */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-0 lg:divide-x lg:divide-gray-200 w-full">

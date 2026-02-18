@@ -1,7 +1,8 @@
-import Hero from "@/components/Hero";
-import Stats from "@/components/Stats";
-import DeanSection from "@/components/DeanSection";
-import Programmes from "@/components/Programmes";
+import Hero from "@/components/Home/Hero";
+import Stats from "@/components/Home/Stats";
+import DeanSection from "@/components/Home/DeanSection";
+import Programmes from "@/components/Home/Programmes";
+import LifeSection from "@/components/Home/LifeSection";
 
 export default function Home() {
   return (
@@ -12,12 +13,13 @@ export default function Home() {
       {/* Spacer: pushes content below the fixed hero (100vh) */}
       <div className="h-screen" aria-hidden="true" />
 
-      {/* All sections below slide OVER the fixed hero */}
       <div className="relative z-10">
         <Stats />
         <DeanSection />
         <Programmes />
+        <LifeSection />
       </div>
     </>
   );
 }
+

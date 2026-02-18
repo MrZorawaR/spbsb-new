@@ -1,9 +1,9 @@
 import Image from "next/image";
+import SectionHeading from "../SectionHeading";
 
 export default function DeanSection() {
   return (
-    <section className="relative overflow-hidden pb-20 pt-10 bg-cool">
-      {/* Background Decor */}
+    <section className="relative overflow-hidden py-10 bg-cool">
       <div
         className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 w-96 h-96 bg-blue-50 rounded-full blur-3xl opacity-50"
         aria-hidden="true"
@@ -13,18 +13,11 @@ export default function DeanSection() {
         aria-hidden="true"
       />
 
-      {/* Heading */}
-      <div className="text-center mb-16 relative z-10">
-        <h2 className="text-3xl lg:text-4xl font-bold font-zilla text-heading mt-3 mb-4">
-          Dean's Message
-        </h2>
-        <div className="h-1 w-20 bg-accent mx-auto rounded-full" />
-      </div>
+      <SectionHeading title="Dean's Message"/>
 
       <div className="max-w-7xl mx-auto px-6 md:px-8 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-16 items-center">
-          
-          {/* Text Column (Switching order on mobile? User snippet puts text first in DOM) */}
+
           <div className="md:col-span-9 space-y-8 order-2 md:order-1">
             <blockquote className="relative">
               <p className="font-zilla text-xl md:text-2xl text-gray-700 italic leading-snug">
@@ -47,12 +40,9 @@ export default function DeanSection() {
             </div>
           </div>
 
-          {/* Image Column */}
           <div className="md:col-span-3 relative group order-1 md:order-2 mx-auto md:mx-0 w-full max-w-[280px] md:max-w-none">
-            {/* Rotated decorative border (Desktop only) */}
             <div className="hidden md:block absolute -inset-4 border-2 border-heading/10 rounded-[40px] rotate-3 transition-transform duration-500 group-hover:rotate-0" />
 
-            {/* Image Card */}
             <div className="relative h-[280px] md:h-[340px] w-full z-10 overflow-hidden rounded-[24px] md:rounded-[32px] shadow-2xl bg-white">
               <Image
                 src="https://geetauniversity.edu.in/uploads/all/1983/indira.webp"
@@ -62,7 +52,6 @@ export default function DeanSection() {
                 sizes="(max-width: 768px) 100vw, 33vw"
               />
 
-              {/* Overlay Text */}
               <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-heading/95 via-heading/50 to-transparent pt-16">
                 <h3 className="text-white text-xl font-bold leading-tight font-zilla">
                   Dr. Indira Bhardwaj
@@ -73,7 +62,6 @@ export default function DeanSection() {
               </div>
             </div>
 
-            {/* Decorative Quote Icon (Positioned bottom right) */}
             <div className="absolute -bottom-6 -right-6 hidden md:block z-20">
               <svg
                 className="w-24 h-24 text-accent/10"
