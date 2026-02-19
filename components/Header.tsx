@@ -45,18 +45,18 @@ export default function Header() {
       <div
         className={`w-full transition-all duration-500 ease-in-out border-b border-white/10 ${
           scrolled || mobileOpen
-            ? "bg-white shadow-sm border-transparent py-3 lg:py-2"
-            : "bg-transparent py-3 lg:py-4"
+            ? "bg-white shadow-sm border-transparent py-5"
+            : "bg-transparent py-7"
         }`}
       >
-        <div className="container mx-auto px-6 h-10 flex items-center justify-between">
+        <div className="container mx-auto px-6 md:px-20 h-10 flex items-center justify-between">
           {/* Logo */}
           <Link
             href="/"
             className="flex items-center gap-3 shrink-0 group"
             aria-label="SPBSB Home"
           >{
-            scrolled ?
+            scrolled || mobileOpen ?
             <Image src="https://geetauniversity.edu.in/uploads/all/1984/SPBSB-Logo.webp"
                         alt="SPBSB Logo" className="h-12 w-auto" width={120} height={120}/ >
                           :
@@ -67,7 +67,7 @@ export default function Header() {
 
           {/* Utility Links */}
           <div
-            className={`hidden lg:flex items-center gap-6 text-xs font-semibold tracking-wide transition-colors duration-300 ${
+            className={`hidden lg:flex items-center gap-6 font-semibold tracking-wide transition-colors duration-300 ${
               scrolled ? "text-gray-600" : "text-white/90"
             }`}
           >

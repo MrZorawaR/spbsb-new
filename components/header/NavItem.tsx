@@ -21,7 +21,7 @@ export default function NavItem({
   return (
     <li className="nav-item group relative">
       <button
-        className="flex items-center gap-1.5 px-4 py-2.5 text-sm font-medium tracking-wide transition-colors duration-200 relative group-hover:text-accent focus-visible:text-accent"
+        className="flex items-center gap-1.5 px-4 py-2.5 font-medium tracking-wide transition-colors duration-200 relative group-hover:text-accent focus-visible:text-accent"
         aria-haspopup="true"
         aria-expanded="false"
         type="button"
