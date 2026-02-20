@@ -18,7 +18,7 @@ export default function Stats() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-0 lg:divide-x lg:divide-gray-200 w-full">
           {stats.map((stat) => (
             <div key={stat.label} className="px-4 lg:px-8 text-center flex flex-col items-center justify-center">
-              <p className="font-source text-5xl md:text-6xl font-bold text-heading tracking-tight mb-3">
+              <p className="font-source text-5xl md:text-6xl text-heading tracking-tight mb-3">
                 {stat.number}
               </p>
               <p className="stat-label text-sm font-semibold text-gray-600 tracking-wide uppercase">

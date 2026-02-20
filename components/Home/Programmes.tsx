@@ -4,25 +4,25 @@ import ProgrammesCarousel from "./ProgrammesCarousel";
 const programmes = [
   {
     title: "MBA (2 yr)",
-    image: "/images/mba-fulltime.svg",
+    image: "/images/mba-2yr.webp",
     href: "/programmes/mba",
     alt: "MBA Full-Time students in a professional classroom discussion",
   },
   {
     title: "MBA with Apprenticeship",
-    image: "/images/mba-executive-hca.svg",
+    image: "/images/mba-apprenticeship.webp",
     href: "/programmes/mba-executive-hca",
     alt: "MBA-Executive HCA working professionals in an evening lecture",
   },
   {
     title: "PhD",
-    image: "/images/mba-executive.svg",
+    image: "/images/phd.webp",
     href: "/programmes/mba-executive",
     alt: "PhD students in a professional classroom discussion",
   },
   {
     title: "Executive Learning Programs",
-    image: "/images/mba-executive.svg",
+    image: "/images/executive-program.webp",
     href: "/programmes/mba-executive",
     alt: "Executive Learning Programs for working professionals",
   },
