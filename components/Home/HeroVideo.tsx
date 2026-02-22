@@ -39,10 +39,10 @@ export default function HeroVideo() {
 
   return (
     <video
-      className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-[1500ms] ease-out ${
+      className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1500 ease-out ${
         visible ? "opacity-100" : "opacity-0"
       }`}
-      src="https://fms-images.b-cdn.net/fmsBackgrounds/fmsBackgroundVideo.mp4"
+      src="/videos/intro.mp4"
       autoPlay
       muted
       loop
