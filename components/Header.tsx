@@ -43,7 +43,7 @@ export default function Header() {
     >
       {/* ─── Row 1: Top Bar (Logo + Utilities) ─── */}
       <div
-        className={`w-full transition-all duration-500 ease-in-out border-b border-white/10 ${
+        className={`w-full transition-all duration-500 ease-in-out ${
           scrolled || mobileOpen
             ? "bg-white shadow-sm border-transparent py-5"
             : "bg-transparent py-7"
@@ -128,7 +128,7 @@ export default function Header() {
       {/* ─── Row 2: Main Navigation ─── */}
       <div
         className={`w-full transition-all duration-500 ease-in-out hidden lg:block ${
-          scrolled ? "bg-heading shadow-lg py-0" : "bg-transparent py-2"
+          scrolled ? "bg-heading shadow-lg py-0" : "bg-transparent"
         }`}
       >
         <div className="container mx-auto px-6">

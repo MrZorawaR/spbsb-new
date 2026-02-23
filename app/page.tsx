@@ -20,7 +20,7 @@ export default function Home() {
       <div className="relative z-10">
         <Stats />
         <DeanSection />
-        <VirtualTourSection />
+        {/* <VirtualTourSection /> */}
         <Programmes />
         <LifeSection />
         <LOPSection />

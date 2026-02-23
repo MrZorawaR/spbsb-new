@@ -37,7 +37,7 @@ export default function Hero() {
 
       {/* Layer 3: Dark gradient overlay */}
       <div
-        className="absolute inset-0 bg-linear-to-b from-black/70 to-black/80"
+        className="absolute inset-0 bg-linear-to-b from-black/60 to-black/70"
         aria-hidden="true"
       />
 
