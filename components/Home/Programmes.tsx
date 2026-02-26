@@ -4,7 +4,7 @@ import ProgrammesCarousel from "./ProgrammesCarousel";
 const programmes = [
   {
     title: "MBA (2 yr)",
-    image: "/images/mba-2yr.webp",
+    image: "/images/mba2yr.webp",
     href: "/programmes/mba",
     alt: "MBA Full-Time students in a professional classroom discussion",
   },
@@ -22,7 +22,7 @@ const programmes = [
   },
   {
     title: "Executive Learning Programs",
-    image: "/images/executive-program.webp",
+    image: "/images/elp.webp",
     href: "/programmes/mba-executive",
     alt: "Executive Learning Programs for working professionals",
   },
