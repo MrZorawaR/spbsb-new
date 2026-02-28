@@ -42,9 +42,9 @@ const phases = [
     {
         number: "04",
         title: "Career Acceleration (WTO)",
-        color: "text-[#0D9488]",
-        barColor: "bg-[#0D9488]",
-        badgeBg: "bg-[#0D9488]/10",
+        color: "text-heading",
+        barColor: "bg-heading",
+        badgeBg: "bg-heading/10",
         items: [
             "Workplace Thrive Quotient",
             "Role-specific preparation",

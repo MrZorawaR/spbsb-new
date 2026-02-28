@@ -11,13 +11,13 @@ const ecosystem = [
     {
         name: "Geeta Finishing School (GFS)",
         description: "Communication & Corporate Readiness",
-        color: "#4D94FF",
+        color: "#07589fff",
         lightText: "text-blue-50",
     },
     {
         name: "Geeta Technical Hub (GTH)",
         description: "Advanced Technology, Certifications, and Industry Skills",
-        color: "#4DB6AC",
+        color: "#013d55e0",
         lightText: "text-teal-50",
     },
 ];
