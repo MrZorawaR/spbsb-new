@@ -14,12 +14,12 @@ export const navSections: NavSection[] = [
   {
     label: "About",
     links: [
-      { label: "Legacy", href: "/about/legacy" },
-      { label: "Vision, Mission & Values", href: "/about/vision" },
-      { label: "Chancellor's Message", href: "/about/chancellor" },
-      { label: "Advisory Board", href: "/about/advisory-board" },
-      { label: "Governing Council", href: "/about/governing-council" },
-      { label: "Dean's Message", href: "/about/dean" },
+      { label: "Overview", href: "/about" },
+      { label: "Recognitions & Approvals", href: "/about#recognitions" },
+      { label: "Vision & Mission ", href: "/about#vision-mission" },
+      { label: "Our Identity", href: "/about#identity" },
+      { label: "Our Legacy", href: "/about#legacy" },
+      { label: "Leadership", href: "/about#leadership" },
     ],
   },
   {
